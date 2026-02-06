@@ -47,6 +47,9 @@ The module sits between an input and output interface and implements a **single-
 This project implements a parameterized single-stage pipeline register using the ready/valid handshake protocol in SystemVerilog.
 It is designed for high-throughput, backpressure-aware data transfer between pipeline stages in RTL designs such as CPUs, DSP pipelines, and streaming interfaces.
 
+## Project Structure
+
+```text
 pipeline_reg/
 ├── rtl/
 │   └── pipeline_reg.sv
@@ -63,4 +66,5 @@ pipeline_reg/
 │
 ├── README.md
 └── LICENSE
+
 
